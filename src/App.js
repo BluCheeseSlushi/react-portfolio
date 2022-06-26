@@ -10,7 +10,7 @@ import Resume from './components/Resume';
 function App() {
   let component
   switch (window.location.pathname) {
-    case '/':
+    default:
       component = <About/>
       break
     case '/portfolio':
